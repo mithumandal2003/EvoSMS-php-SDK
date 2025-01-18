@@ -1,0 +1,26 @@
+{
+    "name": "mithumandal/evosms-php-sdk",
+    "description": "The EvoSMS PHP SDK provides a simple and efficient way to integrate EvoSMS services into your PHP applications. Supporting PHP versions 5.6 and above, this SDK allows you to send SMS messages with ease. The SDK handles all the necessary communication with the EvoSMS API, providing a seamless integration experience.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5",
+        "phpstan/phpstan": "^2.1",
+        "squizlabs/php_codesniffer": "^3.11"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mithumandal\\EvosmsPhpSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mithu Mandal",
+            "email": "info.mithumandal@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
